@@ -1,3 +1,4 @@
+import '@/styles/tailwind.css';
 import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 import Script from 'next/script';
@@ -18,15 +19,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  // icons: {
-  //   icon: '/favicon/apple-icon.png',
-  //   shortcut: '/favicon/apple-icon.png',
-  //   apple: '/favicon/apple-icon.png',
-  //   other: {
-  //     rel: '/favicon/apple-icon-precomposed',
-  //     url: '/favicon/apple-icon-precomposed.png',
-  //   },
-  // },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+    other: {
+      rel: '/favicon.ico',
+      url: '/favicon.ico',
+    },
+  },
   robots: {
     index: true,
     follow: true,

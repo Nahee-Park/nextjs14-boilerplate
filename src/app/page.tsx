@@ -1,9 +1,11 @@
-import Image from 'next/image';
-
 export default function Home() {
   return (
-    <div>
-      <h1>Next.js + TypeScript</h1>
-    </div>
+    <main className="h-[100%] flex flex-col justify-center items-center">
+      <h1 className="text-5xl mb-16">Next Js 14 boilerplate</h1>
+      <p>
+        with typescript, tailwindcss, husky, lint-staged, eslint, prettier, stylelint, Google
+        Analytics
+      </p>
+    </main>
   );
 }
