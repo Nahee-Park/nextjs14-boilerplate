@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="text-5xl mb-16">Next Js 14 boilerplate</h1>
       <p>
         with typescript, tailwindcss, husky, lint-staged, eslint, prettier, stylelint, Google
-        Analytics
+        Analytics :D
       </p>
     </main>
   );
