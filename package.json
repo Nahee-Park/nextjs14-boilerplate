@@ -28,7 +28,7 @@
     "autoprefixer": "^10.4.19",
     "@vercel/analytics": "^1.2.2",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4",
+    "eslint-config-next": "14.2.13",
     "husky": "^9.0.11",
     "import": "^0.0.6",
     "lint-staged": "^15.2.2",
