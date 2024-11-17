@@ -20,7 +20,7 @@ importers:
     devDependencies:
       '@titicaca/stylelint-config-triple':
         specifier: ^1.2.1
-        version: 1.2.1(postcss@8.4.38)(stylelint@15.11.0(typescript@5.3.3))(typescript@5.3.3)
+        version: 1.2.1(postcss@8.4.38)(stylelint@15.11.0(typescript@5.6.2))(typescript@5.6.2)
       '@types/node':
         specifier: ^22
         version: 22.5.5
@@ -62,7 +62,7 @@ importers:
         version: 3.4.12
       typescript:
         specifier: ^5
-        version: 5.3.3
+        version: 5.6.2
 
 packages:
 
@@ -2027,8 +2027,8 @@ packages:
   typed-array-length@1.0.4:
     resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
 
-  typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2270,11 +2270,11 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.2
 
-  '@titicaca/stylelint-config-triple@1.2.1(postcss@8.4.38)(stylelint@15.11.0(typescript@5.3.3))(typescript@5.3.3)':
+  '@titicaca/stylelint-config-triple@1.2.1(postcss@8.4.38)(stylelint@15.11.0(typescript@5.6.2))(typescript@5.6.2)':
     dependencies:
-      postcss-styled-syntax: 0.4.0(postcss@8.4.38)(typescript@5.3.3)
-      stylelint: 15.11.0(typescript@5.3.3)
-      stylelint-config-recommended: 13.0.0(stylelint@15.11.0(typescript@5.3.3))
+      postcss-styled-syntax: 0.4.0(postcss@8.4.38)(typescript@5.6.2)
+      stylelint: 15.11.0(typescript@5.6.2)
+      stylelint-config-recommended: 13.0.0(stylelint@15.11.0(typescript@5.6.2))
     transitivePeerDependencies:
       - postcss
       - supports-color
@@ -2323,12 +2323,12 @@ snapshots:
     dependencies:
       '@typescript-eslint/scope-manager': 6.16.0
       '@typescript-eslint/types': 6.16.0
-      '@typescript-eslint/typescript-estree': 6.16.0(typescript@5.3.3)
+      '@typescript-eslint/typescript-estree': 6.16.0(typescript@5.6.2)
       '@typescript-eslint/visitor-keys': 6.16.0
       debug: 4.3.4
       eslint: 8.57.1
     optionalDependencies:
-      typescript: 5.3.3
+      typescript: 5.6.2
     transitivePeerDependencies:
       - supports-color
 
@@ -2368,13 +2368,13 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      tsutils: 3.21.0(typescript@5.3.3)
+      tsutils: 3.21.0(typescript@5.6.2)
     optionalDependencies:
-      typescript: 5.3.3
+      typescript: 5.6.2
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/typescript-estree@6.16.0(typescript@5.3.3)':
+  '@typescript-eslint/typescript-estree@6.16.0(typescript@5.6.2)':
     dependencies:
       '@typescript-eslint/types': 6.16.0
       '@typescript-eslint/visitor-keys': 6.16.0
@@ -2684,14 +2684,14 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  cosmiconfig@8.3.6(typescript@5.3.3):
+  cosmiconfig@8.3.6(typescript@5.6.2):
     dependencies:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
     optionalDependencies:
-      typescript: 5.3.3
+      typescript: 5.6.2
 
   cross-spawn@7.0.5:
     dependencies:
@@ -2875,7 +2875,7 @@ snapshots:
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
     optionalDependencies:
-      typescript: 5.3.3
+      typescript: 5.6.2
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
       - supports-color
@@ -3792,9 +3792,9 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss-styled-syntax@0.4.0(postcss@8.4.38)(typescript@5.3.3):
+  postcss-styled-syntax@0.4.0(postcss@8.4.38)(typescript@5.6.2):
     dependencies:
-      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.3.3)
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.6.2)
       estree-walker: 2.0.2
       postcss: 8.4.38
     transitivePeerDependencies:
@@ -4090,11 +4090,11 @@ snapshots:
       client-only: 0.0.1
       react: 18.2.0
 
-  stylelint-config-recommended@13.0.0(stylelint@15.11.0(typescript@5.3.3)):
+  stylelint-config-recommended@13.0.0(stylelint@15.11.0(typescript@5.6.2)):
     dependencies:
-      stylelint: 15.11.0(typescript@5.3.3)
+      stylelint: 15.11.0(typescript@5.6.2)
 
-  stylelint@15.11.0(typescript@5.3.3):
+  stylelint@15.11.0(typescript@5.6.2):
     dependencies:
       '@csstools/css-parser-algorithms': 2.4.0(@csstools/css-tokenizer@2.2.2)
       '@csstools/css-tokenizer': 2.2.2
@@ -4102,7 +4102,7 @@ snapshots:
       '@csstools/selector-specificity': 3.0.1(postcss-selector-parser@6.0.14)
       balanced-match: 2.0.0
       colord: 2.9.3
-      cosmiconfig: 8.3.6(typescript@5.3.3)
+      cosmiconfig: 8.3.6(typescript@5.6.2)
       css-functions-list: 3.2.1
       css-tree: 2.3.1
       debug: 4.3.4
@@ -4241,10 +4241,10 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsutils@3.21.0(typescript@5.3.3):
+  tsutils@3.21.0(typescript@5.6.2):
     dependencies:
       tslib: 1.14.1
-      typescript: 5.3.3
+      typescript: 5.6.2
 
   type-check@0.4.0:
     dependencies:
@@ -4283,7 +4283,7 @@ snapshots:
       for-each: 0.3.3
       is-typed-array: 1.1.12
 
-  typescript@5.3.3: {}
+  typescript@5.6.2: {}
 
   unbox-primitive@1.0.2:
     dependencies:
