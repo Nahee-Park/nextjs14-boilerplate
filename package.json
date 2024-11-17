@@ -6,7 +6,6 @@
     "email": "nahee.developer@gmail.com"
   },
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

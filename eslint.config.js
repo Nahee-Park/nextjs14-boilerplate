@@ -1,5 +1,3 @@
-import { Linter } from 'eslint';
-
 const config = {
   plugins: ['react', 'react-hooks', 'import'],
   extends: ['eslint:recommended', 'plugin:import/recommended', 'next', 'next/core-web-vitals'],
@@ -56,4 +54,4 @@ const config = {
   },
 };
 
-export default config;
+module.exports = config;
